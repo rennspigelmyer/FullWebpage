@@ -110,3 +110,60 @@ header a:hover {
 #showcase p {
     font-size: 20px;
 }
+
+/* Newsletter */
+#newsletter {
+    background-color: #2d2b3e;
+    padding: 15px;
+    color: #fff;
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Look at this for landing page project */
+#newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    /* background-color: aqua; <--- code to change email box color. Just need to figure out how to change font color now */
+}
+/* Change Font Color in input box
+::placeholder {
+    color: hotpink;
+    opacity: 1; <--- maybe?
+} */
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#boxes .container .box {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+#boxes .box i {
+    font-size: 225px;
+    margin: auto;
+}
+
+#boxes .box .fa-html5 {
+    color: #d45632;
+}
+#boxes .box .fa-css3-alt {
+    color: #2d50dc;;
+}
+#boxes .box .fa-js {
+    color: #f3df50;
+}
