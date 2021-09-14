@@ -180,3 +180,44 @@ header a:hover {
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 50px;
 }
+
+#about .main-col {
+    color: #fff;
+}
+
+#about .sidebar {
+    margin-top: 10px;
+}
+
+/* Services */
+#services .container {
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+
+#services li {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+#services .sidebar {
+    margin-top: 10px;
+}
+
+#services input, #services text area {
+    padding: 5px;
+    width: 90%;
+}
+
+/* Footer */
+footer {
+    background-color: #2d2b3e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+
+}
