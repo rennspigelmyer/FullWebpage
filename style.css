@@ -167,3 +167,16 @@ header a:hover {
 #boxes .box .fa-js {
     color: #f3df50;
 }
+
+
+/* About */
+#about {
+    background-color: #2d2b3e;
+    padding: 20px;
+}
+/* use below to get columns on landing page project. */
+#about .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
